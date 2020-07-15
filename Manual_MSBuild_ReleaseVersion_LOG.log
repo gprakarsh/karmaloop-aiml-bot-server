@@ -1,0 +1,256 @@
+Build started 7/15/2020 2:58:49 PM.
+__________________________________________________
+Project "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotServer.sln" (default targets):
+
+Target ValidateSolutionConfiguration:
+    Building solution configuration "Release|Any CPU".
+Target Build:
+    __________________________________________________
+    Project "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotServer.sln" is building "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotServer\KarmaloopAIMLBotServer.csproj" (default targets):
+
+    Target GetReferenceAssemblyPaths:
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.5" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+    Done building target "GetReferenceAssemblyPaths" in project "KarmaloopAIMLBotServer.csproj".
+    Target PrepareForBuild:
+        Creating directory "bin\Release\".
+        Creating directory "obj\Release\".
+    Target ResolveProjectReferences:
+        __________________________________________________
+        Project "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotServer\KarmaloopAIMLBotServer.csproj" is building "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotParser\KarmaloopAIMLBotParser.csproj" (default targets):
+
+        Target GetReferenceAssemblyPaths:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.5" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+        Done building target "GetReferenceAssemblyPaths" in project "KarmaloopAIMLBotParser.csproj".
+        Target PrepareForBuild:
+            Creating directory "bin\Release\".
+            Creating directory "obj\Release\".
+        Target ResolveAssemblyReferences:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Web", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+        Done building target "ResolveAssemblyReferences" in project "KarmaloopAIMLBotParser.csproj".
+        Target CoreCompile:
+            C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /debug:pdbonly /optimize+ /out:obj\Release\KarmaloopAIMLBotParser.dll /subsystemversion:6.00 /target:library /utf8output AIMLBot.cs AIMLTagHandlers\bot.cs AIMLTagHandlers\condition.cs AIMLTagHandlers\date.cs AIMLTagHandlers\formal.cs AIMLTagHandlers\gender.cs AIMLTagHandlers\get.cs AIMLTagHandlers\gossip.cs AIMLTagHandlers\id.cs AIMLTagHandlers\input.cs AIMLTagHandlers\javascript.cs AIMLTagHandlers\learn.cs AIMLTagHandlers\lowercase.cs AIMLTagHandlers\person.cs AIMLTagHandlers\person2.cs AIMLTagHandlers\random.cs AIMLTagHandlers\sentence.cs AIMLTagHandlers\set.cs AIMLTagHandlers\size.cs AIMLTagHandlers\sr.cs AIMLTagHandlers\srai.cs AIMLTagHandlers\star.cs AIMLTagHandlers\system.cs AIMLTagHandlers\that.cs AIMLTagHandlers\thatstar.cs AIMLTagHandlers\think.cs AIMLTagHandlers\topicstar.cs AIMLTagHandlers\uppercase.cs AIMLTagHandlers\version.cs BotUser.cs Normalize\ApplySubstitutions.cs Normalize\MakeCaseInsensitive.cs Normalize\SplitIntoSentences.cs Normalize\StripIllegalCharacters.cs Request.cs Result.cs Utils\AIMLLoader.cs Utils\AIMLTagHandler.cs Utils\CustomTag.cs Utils\Gender.cs Utils\MatchState.cs Utils\Node.cs Utils\SettingsDictionary.cs Utils\SubQuery.cs Utils\TagHandler.cs Utils\TextTransformer.cs Properties\AssemblyInfo.cs "C:\Users\Prakarsh Gupta\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+        Target _CopyFilesMarkedCopyLocal:
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" to "bin\Release\mscorlib.dll".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normidna.nlp" to "bin\Release\normidna.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfc.nlp" to "bin\Release\normnfc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfd.nlp" to "bin\Release\normnfd.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkc.nlp" to "bin\Release\normnfkc.nlp".
+            Copying file from "C:\Windows\Microsoft.NET\Framework\v4.0.30319\normnfkd.nlp" to "bin\Release\normnfkd.nlp".
+        Target CopyFilesToOutputDirectory:
+            Copying file from "obj\Release\KarmaloopAIMLBotParser.dll" to "bin\Release\KarmaloopAIMLBotParser.dll".
+            KarmaloopAIMLBotParser -> C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotParser\bin\Release\KarmaloopAIMLBotParser.dll
+            Copying file from "obj\Release\KarmaloopAIMLBotParser.pdb" to "bin\Release\KarmaloopAIMLBotParser.pdb".
+
+        Done building project "KarmaloopAIMLBotParser.csproj".
+        __________________________________________________
+        Project "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotServer\KarmaloopAIMLBotServer.csproj" is building "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotParser\KarmaloopAIMLBotParser.csproj" (default targets):
+
+        __________________________________________________
+        Project "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotServer\KarmaloopAIMLBotServer.csproj" is building "C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotParser\KarmaloopAIMLBotParser.csproj" (GetNativeManifest target(s)):
+
+    Target ResolveAssemblyReferences:
+        Primary reference "Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\Microsoft.Owin.winmd", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.dll", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.exe", but it didn't exist.
+        Primary reference "Microsoft.Owin.Cors, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Cors, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.Owin.Cors.3.1.0\lib\net45\Microsoft.Owin.Cors.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "Microsoft.Owin.Cors, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "Microsoft.Owin.Cors, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\Microsoft.Owin.Cors.winmd", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.Cors.dll", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.Cors.exe", but it didn't exist.
+        Primary reference "Microsoft.Owin.Host.HttpListener, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Host.HttpListener, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.Owin.Host.HttpListener.2.0.2\lib\net45\Microsoft.Owin.Host.HttpListener.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "Microsoft.Owin.Host.HttpListener, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "Microsoft.Owin.Host.HttpListener, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\Microsoft.Owin.Host.HttpListener.winmd", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.Host.HttpListener.dll", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.Host.HttpListener.exe", but it didn't exist.
+        Primary reference "Microsoft.Owin.Hosting, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Hosting, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.Owin.Hosting.2.0.2\lib\net45\Microsoft.Owin.Hosting.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "Microsoft.Owin.Hosting, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "Microsoft.Owin.Hosting, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\Microsoft.Owin.Hosting.winmd", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.Hosting.dll", but it didn't exist.
+                Considered "bin\Release\Microsoft.Owin.Hosting.exe", but it didn't exist.
+        Primary reference "Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Owin.1.0\lib\net40\Owin.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\Owin.winmd", but it didn't exist.
+                Considered "bin\Release\Owin.dll", but it didn't exist.
+                Considered "bin\Release\Owin.exe", but it didn't exist.
+        Primary reference "System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.AspNet.WebApi.Client.5.2.4\lib\net45\System.Net.Http.Formatting.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\System.Net.Http.Formatting.winmd", but it didn't exist.
+                Considered "bin\Release\System.Net.Http.Formatting.dll", but it didn't exist.
+                Considered "bin\Release\System.Net.Http.Formatting.exe", but it didn't exist.
+        Primary reference "System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.AspNet.Cors.5.0.0\lib\net45\System.Web.Cors.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\System.Web.Cors.winmd", but it didn't exist.
+                Considered "bin\Release\System.Web.Cors.dll", but it didn't exist.
+                Considered "bin\Release\System.Web.Cors.exe", but it didn't exist.
+        Primary reference "System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.AspNet.WebApi.Core.5.2.4\lib\net45\System.Web.Http.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\System.Web.Http.winmd", but it didn't exist.
+                Considered "bin\Release\System.Web.Http.dll", but it didn't exist.
+                Considered "bin\Release\System.Web.Http.exe", but it didn't exist.
+        Primary reference "System.Web.Http.Owin, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL".
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Web.Http.Owin, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+                For SearchPath "{CandidateAssemblyFiles}".
+                Considered "Components\Newtonsoft.Json.dll", but its name "Newtonsoft.Json" didn't match.
+                For SearchPath "{HintPathFromItem}".
+                Considered "..\packages\Microsoft.AspNet.WebApi.Owin.5.2.4\lib\net45\System.Web.Http.Owin.dll", but it didn't exist.
+                For SearchPath "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}".
+                Considered AssemblyFoldersEx locations.
+                For SearchPath "{GAC}".
+                Considered "System.Web.Http.Owin, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL", which was not found in the GAC.
+                For SearchPath "{RawFileName}".
+                Considered treating "System.Web.Http.Owin, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" as a file name, but it didn't exist.
+                For SearchPath "bin\Release\".
+                Considered "bin\Release\System.Web.Http.Owin.winmd", but it didn't exist.
+                Considered "bin\Release\System.Web.Http.Owin.dll", but it didn't exist.
+                Considered "bin\Release\System.Web.Http.Owin.exe", but it didn't exist.
+        AssemblyFoldersEx location: "{Registry:Software\Microsoft\.NETFramework,v4.5,AssemblyFoldersEx}"
+                C:\Program Files (x86)\Microsoft.NET\Primary Interop Assemblies\
+                C:\Program Files (x86)\Common Files\Microsoft Shared\MSEnv\\PublicAssemblies
+                C:\Program Files (x86)\Microsoft Chart Controls\Assemblies
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+    Done building target "ResolveAssemblyReferences" in project "KarmaloopAIMLBotServer.csproj".
+    Target GenerateTargetFrameworkMonikerAttribute:
+      Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+    Target CoreCompile:
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:anycpu32bitpreferred /errorreport:prompt /warn:4 /define:TRACE /highentropyva+ /reference:"C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotParser\bin\Release\KarmaloopAIMLBotParser.dll" /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll /reference:C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll /reference:"C:\Users\Prakarsh Gupta\Desktop\gritsa\karmaloop-aiml-bot-server\KarmaloopAIMLBotServer\Components\Newtonsoft.Json.dll" /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll /reference:C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll /debug:pdbonly /optimize+ /out:obj\Release\KarmaloopAIMLBotServer.exe /subsystemversion:6.00 /target:exe /utf8output API\ApiHost.cs API\ChatUiController.cs API\ConversationRequest.cs API\ResponseModel.cs API\ConversationController.cs API\ConversationResponseModel.cs KarmaloopClient.cs Program.cs Properties\AssemblyInfo.cs Server.cs Skills\TimeSkills.cs Skills\SkillsRepository.cs Skills\SkillParams.cs Skills\SkillResult.cs Skills\WeatherSkills.cs Skills\ScriptedSkill.cs "C:\Users\Prakarsh Gupta\AppData\Local\Temp\.NETFramework,Version=v4.5.AssemblyAttributes.cs"
+        API\ApiHost.cs(1,7): error CS0246: The type or namespace name 'Owin' could not be found (are you missing a using directive or an assembly reference?)
+        API\ApiHost.cs(7,18): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+        API\ChatUiController.cs(10,18): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+        API\ChatUiController.cs(15,37): error CS0246: The type or namespace name 'ApiController' could not be found (are you missing a using directive or an assembly reference?)
+        API\ConversationController.cs(8,18): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+        API\ConversationController.cs(12,43): error CS0246: The type or namespace name 'ApiController' could not be found (are you missing a using directive or an assembly reference?)
+        Server.cs(3,17): error CS0234: The type or namespace name 'Owin' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+        API\ApiHost.cs(15,35): error CS0246: The type or namespace name 'IAppBuilder' could not be found (are you missing a using directive or an assembly reference?)
+        API\ConversationController.cs(20,16): error CS0246: The type or namespace name 'IHttpActionResult' could not be found (are you missing a using directive or an assembly reference?)
+        API\ConversationController.cs(84,16): error CS0246: The type or namespace name 'IHttpActionResult' could not be found (are you missing a using directive or an assembly reference?)
+        API\ChatUiController.cs(14,6): error CS0246: The type or namespace name 'RoutePrefix' could not be found (are you missing a using directive or an assembly reference?)
+        API\ChatUiController.cs(14,6): error CS0246: The type or namespace name 'RoutePrefixAttribute' could not be found (are you missing a using directive or an assembly reference?)
+    Done building target "CoreCompile" in project "KarmaloopAIMLBotServer.csproj" -- FAILED.
+
+    Done building project "KarmaloopAIMLBotServer.csproj" -- FAILED.
+
+Build FAILED.
+
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.5" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(983,5): warning MSB3644: The reference assemblies for framework ".NETFramework,Version=v4.5" were not found. To resolve this, install the SDK or Targeting Pack for this framework version or retarget your application to a version of the framework for which you have the SDK or Targeting Pack installed. Note that assemblies will be resolved from the Global Assembly Cache (GAC) and will be used in place of reference assemblies. Therefore your assembly may not be correctly targeted for the framework you intend.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Data", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "System.Web", "AMD64". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Cors, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Host.HttpListener, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Microsoft.Owin.Hosting, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Net.Http.Formatting, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Web.Cors, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Web.Http, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "System.Web.Http.Owin, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets(1605,5): warning MSB3270: There was a mismatch between the processor architecture of the project being built "MSIL" and the processor architecture of the reference "C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll", "x86". This mismatch may cause runtime failures. Please consider changing the targeted processor architecture of your project through the Configuration Manager so as to align the processor architectures between your project and references, or take a dependency on references with a processor architecture that matches the targeted processor architecture of your project.
+API\ApiHost.cs(1,7): error CS0246: The type or namespace name 'Owin' could not be found (are you missing a using directive or an assembly reference?)
+API\ApiHost.cs(7,18): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+API\ChatUiController.cs(10,18): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+API\ChatUiController.cs(15,37): error CS0246: The type or namespace name 'ApiController' could not be found (are you missing a using directive or an assembly reference?)
+API\ConversationController.cs(8,18): error CS0234: The type or namespace name 'Http' does not exist in the namespace 'System.Web' (are you missing an assembly reference?)
+API\ConversationController.cs(12,43): error CS0246: The type or namespace name 'ApiController' could not be found (are you missing a using directive or an assembly reference?)
+Server.cs(3,17): error CS0234: The type or namespace name 'Owin' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+API\ApiHost.cs(15,35): error CS0246: The type or namespace name 'IAppBuilder' could not be found (are you missing a using directive or an assembly reference?)
+API\ConversationController.cs(20,16): error CS0246: The type or namespace name 'IHttpActionResult' could not be found (are you missing a using directive or an assembly reference?)
+API\ConversationController.cs(84,16): error CS0246: The type or namespace name 'IHttpActionResult' could not be found (are you missing a using directive or an assembly reference?)
+API\ChatUiController.cs(14,6): error CS0246: The type or namespace name 'RoutePrefix' could not be found (are you missing a using directive or an assembly reference?)
+API\ChatUiController.cs(14,6): error CS0246: The type or namespace name 'RoutePrefixAttribute' could not be found (are you missing a using directive or an assembly reference?)
+    15 Warning(s)
+    12 Error(s)
+
+Time Elapsed 00:00:02.86
